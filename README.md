@@ -3,7 +3,7 @@
 An end-to-end, high-precision Machine Learning web application designed to forecast annual salaries for artificial intelligence professionals. The project combines a high-performance **XGBoost** regression model, an asynchronous **FastAPI** backend, and a premium, minimalist **React** frontend styled with a cozy Scandinavian beige and deep navy theme.
 
 ---
-##  Project Architecture
+## 📂 Project Architecture
 
 ```
 projet-1_salary_predictor_model/
