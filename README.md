@@ -3,27 +3,7 @@
 An end-to-end, high-precision Machine Learning web application designed to forecast annual salaries for artificial intelligence professionals. The project combines a high-performance **XGBoost** regression model, an asynchronous **FastAPI** backend, and a premium, minimalist **React** frontend styled with a cozy Scandinavian beige and deep navy theme.
 
 ---
-
-## 🎨 Preview & Aesthetics
-
-The application features a modern, clean, and warm light-mode design inspired by organic Scandinavian colors:
-- **Cream & Soft Sand** (`#F5EFEB`, `#EEE8DF`) for a relaxing, warm visual environment.
-- **Deep Ocean Navy** (`#23375B`) for elegant, high-contrast serif typography and inputs.
-- **Cozy Stone Beige** (`#C4BCB0`) for elegant dividers, borders, and details.
-- High-end font pairing: **Playfair Display** (italic serif headings) and **Outfit** (clean sans-serif elements).
-
----
-
-## ⚡ Key Upgrades & UX Innovations
-
-We replaced traditional, frustrating form fields with intelligent, user-centric controls:
-1. **🏢 Smart Remote Selector**: Instead of typing arbitrary percentages, a beautiful segmented control lets users click `On-site (0%)`, `Hybrid (50%)`, or `Full Remote (100%)`.
-2. **🏥 Benefits checklist**: Users simply check boxes for key benefits (Health Insurance, Flexible Hours, Gym, etc.). The frontend automatically computes a standardized benefits score (`5.0` to `10.0`) compatible with the model's training range.
-3. **📝 Job Description Textarea**: Users copy and paste a job description. The code counts its length in real-time and clips it safely between `500` and `2500` characters to stay within the model's bounds.
-
----
-
-## 📂 Project Architecture
+##  Project Architecture
 
 ```
 projet-1_salary_predictor_model/
@@ -49,7 +29,7 @@ projet-1_salary_predictor_model/
 
 ---
 
-## 🧠 Machine Learning Model Specs
+##  Machine Learning Model Specs
 
 The prediction engine runs on a robust `XGBRegressor` pipeline:
 - **Preprocessing**: 
@@ -62,7 +42,7 @@ The prediction engine runs on a robust `XGBRegressor` pipeline:
 
 ---
 
-## 🚀 How to Run the Project Locally
+##  How to Run the Project Locally
 
 ### 1. Prerequisiets
 Ensure you have **Python 3.10+** and **Node.js (v18+)** installed.
@@ -113,5 +93,5 @@ Ensure you have **Python 3.10+** and **Node.js (v18+)** installed.
 
 ---
 
-## 📄 License
+##  License
 This project is open-source and available under the MIT License.
